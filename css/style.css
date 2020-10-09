@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Tech4girls;
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+} 
+h1,h2,h3,h4,p,a{
+    font-family: Tech4girls;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top{
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.top-logo{
+    width: 18%;
+    margin-left: 4%;
+}
+.top-logo h2{
+    font-size: 35px;
+}
+.top-bar{
+    display:none;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.top-menu{
+    height: 40px;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+.top-menu a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+#don{
+    background-color: #ff9C00;
+    width: 200px;
+}
+.top-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: orangered;
+}
+.bg-image{
+    background-image: url(../images/girl2.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.bg-text{
+    padding: 10%;
+}
+.bg-text h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+   margin-top: 20%;
+}
+
+@media(max-width:650px){
+    /* section one media  */
+    .top{
+        height: 80px;
+        background-color: whitesmoke;
+        display: flex;
+        width: 100%;
+    }
+    .top-logo{
+        width: 18%;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    .top-bar{
+        display:block;
+        cursor: pointer;
+        margin-left: 55%;
+        margin-top: 5%;
+    }
+    .top-bar :hover{
+        color: #ff9C00;
+    }
+    .top-menu{
+        height: 40px;
+        margin-left: 0%;
+        top: 15%;
+        display: none;
+        position: absolute;
+    }
+    .top-menu a{
+        display: block;
+        background-color: #ff9C00;
+        margin-left: 0%;
+        width: 160%;
+        font-size: 30px;
+        border-radius: 5px;
+        margin-top: 1%;
+        z-index: 1;
+    }
+    #don{
+        width: 160%;
+        border-radius: 5px;
+    }
+    .top-menu :hover{
+        color: #ffffff;
+    }
+    .empty{
+        display: block;
+    }
+    /* section one media ends here  */
+}
