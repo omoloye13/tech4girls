@@ -111,19 +111,124 @@ html{
 }
 /* section three ends  */
 /* section four starts here */
-#vision{
+#mission{
     background-color: palegoldenrod;
-    /* margin-top: 2%; */
+}
+#mission h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.all{
+    display: flex;
+}
+.mis-img{
+    width: 500px;
+    height: 400px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.mis-img img{
+    width: 100%;
+}
+.vision{
+    width: 500px;
+    height: 400px;
+    margin-left: 7%;
+    margin-top: 5%;
 }
 .vision h2{
     text-align: center;
     font-weight: 700;
     font-size: 30px;
 }
-.vision p{
-    text-align: center;
+.mission h2{
+    font-weight: 700;
+    font-size: 30px;
 }
 /* section four ends  */
+/* section five starts */
+#biz{
+    background-color: whitesmoke;
+}
+.our h2{
+  text-align: center; 
+  font-weight: 700;
+  font-size: 40px; 
+}
+.work{
+    display: flex;
+}
+#user{
+    width: 200px;
+    height: 200px;
+    margin-left: 15%;
+}
+#user h3{
+    text-align: center;
+}
+#use{
+    width: 120px;
+    height: 100px;
+    margin-left: 20%;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    padding: 2%;
+}
+#laptop{
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+}
+#lap{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+    background-color: gold;
+    color: white;
+    border-radius: 50%;
+    padding: 2%;
+}
+#laptop h3{
+    text-align: center;
+}
+#female{
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+}
+#fem{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2%;
+}
+#female h3{
+    text-align: center;
+}
+#locate{
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+}
+#loc{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2%;
+}
+#locate h3{
+    text-align: center;
+}
+
+/* section five ends */
 @media(max-width:650px){
     /* section one media  */
     .top{
@@ -209,4 +314,85 @@ html{
         padding: 15px;
     }
     /* section three media ends here */
+    /* section four media */
+    .all{
+        display: block;
+    }
+    .mis-img{
+        width: 100%;
+        height: 400px;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .vision{
+        width: 100%;
+        height: 400px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    /* section four media ends here */
+    /* section five media */
+    .our{
+        width: 100%;
+    }
+    .work{
+        display: block;
+    }
+    #user{
+        width: 100%;
+        height: 200px;
+        margin-left: 1%;
+    }
+    #laptop{
+        width: 100%;
+        height: 200px;
+        margin-left: 1%;
+    }
+    #female{
+        width: 100%;
+        height: 200px;
+        margin-left: 1%;
+    }
+    #locate{
+        width: 100%;
+        height: 200px;
+        margin-left: 1%;
+    }
+    #use{
+        width: 100px;
+        height: 100px;
+        margin-left: 27%;
+        background-color: turquoise;
+        color: white;
+        border-radius: 50%;
+        padding: 2%;
+    }
+    #lap{
+        width: 100px;
+        height: 100px;
+        margin-left: 27%;
+        background-color: gold;
+        color: white;
+        border-radius: 50%;
+        padding: 2%;
+    }
+    #fem{
+        width: 100px;
+        height: 100px;
+        margin-left: 29%;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 2%;
+    }
+    #loc{
+        width: 100px;
+        height: 100px;
+        margin-left: 29%;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        padding: 2%;
+    }
+    /* section five media ends here */
 }
