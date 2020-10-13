@@ -1,6 +1,6 @@
 @font-face {
     font-family: Tech4girls;
-    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+    src: url(../font/Montserrat/Montserrat-Medium.ttf);
 } 
 h1,h2,h3,h4,p,a{
     font-family: Tech4girls;
@@ -10,18 +10,26 @@ h1,h2,h3,h4,p,a{
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+/* section one starts here */
 .top{
     height: 80px;
     background-color: whitesmoke;
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 .top-logo{
     width: 18%;
     margin-left: 4%;
+    margin-top: 0%;
 }
 .top-logo h2{
+    padding: 0%;
     margin-top: 0%;
-    font-size: 35px;
+    font-size: 30px;
 }
 .top-bar{
     display:none;
@@ -33,8 +41,7 @@ h1,h2,h3,h4,p,a{
     height: 40px;
     width: 60%;
     margin-left: 5%;
-    margin-top: 2%;
-
+    margin-top: 2%;  
 }
 .top-menu a{
     text-decoration: none;
@@ -42,6 +49,7 @@ h1,h2,h3,h4,p,a{
     padding: 2%;
     margin-left: 5%;
     font-size: 18px;
+    font-weight: 100;
 }
 #don{
     background-color: #ff9C00;
@@ -52,10 +60,12 @@ h1,h2,h3,h4,p,a{
     text-decoration: none;
     color: orangered;
 }
+/* section one ends here */
+/* section two */
 .bg-image{
-    background-image: url(../images/girl2.jpg);
+    background-image: url(../images/bg-girl1.png);
     background-size: cover;
-    height: 700px;
+    height: 800px;
 }
 .bg-text{
     padding: 10%;
@@ -66,18 +76,54 @@ h1,h2,h3,h4,p,a{
     font-size: 40px;
    margin-top: 20%;
 }
+/* section two ends here */
+/* section three */
+#about{
+    background-color: whitesmoke;
+}
+.text h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
 .text-wrap{
     display: flex;
 }
 .wrap-1{
-    width: 400px;
-    height: 500px;
+    margin-top: 1%;
+    width: 550px;
+    height: 550px;
     margin-left: 7%;
+    background-color: aqua;
 }
 .wrap-1 p, h2{
-    padding: 15px;
+    padding: 25px;
 }
-
+.wrap-2{
+    width: 500px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: orangered;
+}
+.wrap-2 p, h2{
+    padding: 25px;
+}
+/* section three ends  */
+/* section four starts here */
+#vision{
+    background-color: palegoldenrod;
+    /* margin-top: 2%; */
+}
+.vision h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.vision p{
+    text-align: center;
+}
+/* section four ends  */
 @media(max-width:650px){
     /* section one media  */
     .top{
@@ -85,6 +131,7 @@ h1,h2,h3,h4,p,a{
         background-color: whitesmoke;
         display: flex;
         width: 100%;
+        /* position: fixed; */
     }
     .top-logo{
         width: 18%;
@@ -117,6 +164,9 @@ h1,h2,h3,h4,p,a{
         margin-top: 1%;
         z-index: 1;
     }
+    #home{
+        margin-top: 22%;
+    }
     #don{
         width: 160%;
         border-radius: 5px;
@@ -128,4 +178,35 @@ h1,h2,h3,h4,p,a{
         display: block;
     }
     /* section one media ends here  */
+    .bg-text h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 40px;
+       margin-top: 45%;
+    }
+    /* section three media starts here */
+    .text-wrap{
+        display: block;
+    }
+    .wrap-1{
+        margin-top: 0%;
+        width: 100%;
+        height: 650px;
+        margin-left: 0%;
+        background-color: aqua;
+    }
+    .wrap-1 p, h2{
+        padding: 15px;
+    }
+    .wrap-2{
+        width: 100%;
+        height: 600px;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-color: orangered;
+    }
+    .wrap-2 p, h2{
+        padding: 15px;
+    }
+    /* section three media ends here */
 }
