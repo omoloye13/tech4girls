@@ -229,6 +229,39 @@ html{
 }
 
 /* section five ends */
+/* section six */
+#contact{
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+}
+.con{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 235, 59, .81);
+    margin-left: 10%;
+}
+.con h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.con p{
+padding: 15px;
+}
+.form{
+    margin-left: 5%;
+    width: 500px;
+    height: 500px;
+}
+.form p{
+    padding: 10px;
+}
+.form input{
+    display: block;
+    padding: 10px;
+}
+/* section six ends here */
 @media(max-width:650px){
     /* section one media  */
     .top{
@@ -395,4 +428,21 @@ html{
         padding: 2%;
     }
     /* section five media ends here */
+    /* section six media */
+    .main{
+        display: block;
+    }
+    .con{
+        width: 99%;
+        height: 500px;
+        background-color: rgba(255, 235, 59, .81);
+        margin-left: 1%;
+    }
+    .form{
+        margin-left: 1%;
+        width: 99%;
+        height: 500px;
+    }
+    /* section six media ends here */
+
 }
