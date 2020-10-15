@@ -260,8 +260,104 @@ padding: 15px;
 .form input{
     display: block;
     padding: 10px;
+    border: solid 1px;
 }
 /* section six ends here */
+/* section seven */
+.donate{
+    display: flex;
+}
+.don-form{
+    width: 600px;
+    height: 650px;
+}
+.don-form h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.don-form input{
+    display: block;
+    border: solid 1px;
+    padding: 15px;
+    width: 400px;
+    margin-top: 1%;
+}
+.don-form form{
+    margin-left: 10%;
+
+}
+.don-form img{
+ width: 400px;
+ margin-left: 10%;
+}
+#btn{
+    background-color: rgb(89, 89, 230);
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10%;
+    color: #ffffff;
+    margin-top: 3%;
+}
+.don-text{
+    width: 600px;
+    background-color: orangered;
+}
+.don-text p{
+    padding: 25px;
+    margin-top: 5%;
+}
+/* section seven ends here */
+/* section eight starts here */
+#cola1 h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+#partners{
+    display: flex;
+}
+#btn1{
+    border: solid #ED3237;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #ED3237;
+    border-radius: 2px;
+}
+#btn1 a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+
+}
+#first{
+    margin-left: 5%;
+}
+#second{
+    margin-left: 3%;
+}
+#third{
+    margin-left: 4%;
+}
+#four{
+    margin-left:4%;
+}
+#five{
+    margin-left: 5%;
+}
+#six{
+    margin-left: 7%;
+}
+
+/* section eight ends here */
 @media(max-width:650px){
     /* section one media  */
     .top{
@@ -444,5 +540,68 @@ padding: 15px;
         height: 500px;
     }
     /* section six media ends here */
-
+    /* section seven media */
+    .donate{
+        display: block;
+    }
+    .don-form{
+        width: 100%;
+        height: 600px;
+    }
+    .don-form input{
+        display: block;
+        border: solid 1px;
+        padding: 15px;
+        width: 90%;
+        margin-top: 1%;
+    }
+    .don-form form{
+        margin-left: 10%;
+    
+    }
+    .don-form img{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .don-text{
+        width: 100%;
+        background-color: orangered;
+    }
+    .don-text p{
+        padding: 25px;
+        margin-top: 5%;
+    }
+/* section seven media ends here */
+/* section eight media */
+#partners{
+    display: block;
+}
+/* #pat{
+    width: 100%;
+} */
+#first{
+    margin-left: 1%;
+    width: 90%;
+}
+#second{
+    margin-left: 1%;
+    width: 90%;
+}
+#third{
+    margin-left: 1%;
+    width: 90%;
+}
+#four{
+    margin-left: 1%;
+    width: 90%;
+}
+#five{
+    margin-left: 1%;
+    width: 90%;
+}
+#six{
+    margin-left: 1%;
+    width: 90%;
+}
+/* section eight media ends here */
 }
