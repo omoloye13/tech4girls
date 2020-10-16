@@ -311,6 +311,9 @@ padding: 15px;
 }
 /* section seven ends here */
 /* section eight starts here */
+#spons{
+    background-color: wheat;
+}
 #cola1 h2{
     text-align: center;
     margin-top: 5%;
@@ -358,6 +361,24 @@ padding: 15px;
 }
 
 /* section eight ends here */
+/* footer section */
+.foot{
+    display: flex;
+    background-color: whitesmoke;
+}
+.social{
+    padding: 2%;
+    margin-left: 10%;
+    width: 20%;
+}
+.social #handle{
+    margin-left: 5%;
+}
+footer{
+    margin-left: 40%;
+    padding: 2%;
+}
+/* footer section ends here */
 @media(max-width:650px){
     /* section one media  */
     .top{
@@ -604,4 +625,23 @@ padding: 15px;
     width: 90%;
 }
 /* section eight media ends here */
+/* section nine media */
+.foot{
+    display: block;
+    background-color: whitesmoke;
+}
+.social{
+    padding: 2%;
+    margin-left: 10%;
+    width: 30%;
+}
+.social #handle{
+    margin-left: 5%;
+}
+footer{
+    margin-left: 4%;
+    padding: 2%;
+    width: 90%;
+}
+/* section nine media ends here */
 }
